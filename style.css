@@ -1,0 +1,274 @@
+
+body{
+	margin:0;
+	font-family:Segoe UI;
+}
+.container{
+	width:60%;
+	margin:auto;
+}
+.header-area{
+	background-color:#23232e;
+	text-align:center;
+	
+	color:#FFF;
+	padding:20px 0;
+	background-size:cover;
+}
+.header-area a{
+	text-decoration:none;
+	color:#FFF;
+	
+}
+.logo img{
+	width:70px;
+	height:auto;
+	margin-bottom:40px;
+}
+.text-area h2{
+	text-transform:uppercase;
+	font-size:45px;
+	margin-bottom:14px;
+	
+}
+.text-area p{
+	font-size:10px;
+	
+}
+.next-section{
+	margin-top:80px;
+}
+.next-section a i{
+	border:1px solid #FFF;
+	font-size:12px;
+	width:12px;
+	height:12px;
+	padding:5px ;
+	border-radius:50%;
+}
+/**********about*********/
+.about{
+	background-color:#FFF;
+	background-image:url("image/background.jpg");
+	background-size:cover;
+	 background-repeat: no-repeat;
+	text-align:center;
+	
+}
+.about .para p{
+	color:#86898b;
+	font-size:16px;
+	margin-top:50px;
+	text-align:center;
+}
+.classify{
+	overflow:hidden;
+}
+.classify h2{
+	color:#464b4f;
+	text-transform:uppercase;
+	font-size:40px;
+	margin-top:50px;
+}
+.text-container {
+  float: left;
+  width: 33.33%;
+  box-sizing:border-box;
+  overflow:hidden;
+}
+
+.col-1 h3{
+	color:#464b4f;
+	font-size:12px;
+	text-align:left;
+}
+.col-1 p{
+	color:#86898b;
+	font-size:11px;
+	text-align:left;
+	margin-bottom:50px;
+} 
+/********my work********/
+.work{
+	background:#23232e;
+	overflow:hidden;
+	
+}
+.col-1{
+	width: 31.33%;
+	margin: 0 1%;
+	float: left;
+	overflow: hidden;
+}
+.col-1 img{
+	width:100%; 
+	height:auto;
+	margin-top:20px;
+}
+.work h2{
+	color:#FFF;
+	text-transform:uppercase;
+	font-size:40px;
+	margin-top:70px;
+	text-align:center;
+	
+}
+.nav ul li{
+	 display: inline-block;
+	
+}
+.nav ul{
+	 text-align:center;
+	 margin-bottom:30px;
+}
+.nav ul li a{
+	text-decoration:none;
+	color:#FFF;
+	text-transform:capitalize;
+	font-size:11px;
+	padding: 0  10px;
+	
+}
+.nav ul li a.active{
+	 padding-bottom: 5px;
+      border-bottom: 1px solid #7b77c9;
+       
+}
+.nav ul li:hover a{
+	  padding-bottom: 5px;
+      border-bottom: 1px solid #7b77c9;
+       
+}
+.img-container .col-1 h3{
+	text-align:center;
+	margin-bottom:3px;
+}
+.img-container .col-1 h3 a{
+	color:#FFF;
+	text-decoration:none;
+	font-size:15px;
+	
+}
+.col-1{
+	text-align:center;
+
+}
+.col-1 a{
+	color:#6d7590;
+	text-decoration:none;
+	font-size:12px;
+
+}
+
+.button{
+	text-align:center;
+	margin-top:100px;
+	margin-bottom:70px;
+	
+	
+}
+.button a{
+	text-decoration:none;
+	color:#FFF;
+	border:1px solid #7b77c9;
+	background:#7b77c9;
+	padding:10px 40px;
+	border-radius:5px;
+	display:inline-block;
+	margin-top:75px;
+}
+/*****photography******/
+.photography{
+	background-color:#FFF;
+	background-image:url("image/background.jpg");
+	background-size:cover;
+	 background-repeat: no-repeat;
+	text-align:center;
+	overflow:hidden;
+}
+.photography h2{
+	color:black;
+	text-transform:uppercase;
+	font-size:40px;
+	margin-top:40px;
+	
+}
+.photography .para{
+	color:#cdcece;
+	font-size:16px;
+	text-align:center;
+}
+/*****subscribe*****/
+.subscribe{
+	background-color:#23232e;
+	text-align:center;
+	overflow:hidden;
+	
+
+}
+.logo img{
+	margin-top:170px;
+	margin-bottom:20px;
+}
+.subscibe p{
+	color:#FFF;
+	font-size:12px;
+	margin-bottom:30px;
+}
+input[type=email] {
+  width: 35%;
+  padding: 5px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius:5px;
+  font-size:12px;
+  border-color:#FFF;
+  background:#FFF;
+  border:none;
+}
+input[type=submit] {
+  width: 25%;
+  padding: 5px 10px;
+  cursor:pointer;
+  box-sizing: border-box;
+  border-radius:5px;
+  font-size:12px;
+  background-color:#7b77c9;
+  border-color:#7b77c9;
+  border:none;
+}
+form{
+	margin-bottom:95px;
+}
+/*******footer-area******/
+.footer-area{
+	text-align:center;
+}
+.footer-area{
+background-image:url("image/background.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+margin-top:40px;
+margin-bottom:40px
+}
+
+.box ul li{
+	display:inline-block;
+	margin-bottom:20px;
+}
+.box ul li a{
+	color:#dbdbdb;
+	display:inline-block;
+	padding:0 10px;
+	font-size:18px;
+}
+.copyright p{
+	color:#dbdbdb;
+	font-size:10px;
+	margin-left:35px;
+}
+@media all and (max-width: 768px) {
+	.col-1 {
+		width: 48%;
+	}
+}

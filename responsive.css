@@ -1,0 +1,26 @@
+
+	@media all and (max-width: 768px) {
+	.col-1 {
+		width: 48%;
+	}
+	.nav ul li{
+		display:block;
+	}
+	.about .para p{
+		font-size:14px;
+	}
+	.photography .para{
+		font-size:14px;
+	}
+}
+@media all and (max-width: 600px) {
+	.col-1{
+		width: 98%;
+	}
+	.about .para p{
+		font-size:10px;
+	}
+	.photography .para{
+		font-size:10px;
+	}
+}
